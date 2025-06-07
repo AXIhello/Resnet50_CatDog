@@ -10,11 +10,11 @@ from sklearn.metrics import precision_recall_fscore_support, confusion_matrix
 import seaborn as sns
 import numpy as np
 
-LR_BASE = 0.0001  # 主干网络基础学习率（小）
-LR_FC = 0.001  # FC层学习率（大）
-EPOCH_NUM = 30
-UNFREEZE_EPOCH = 5  # 第10轮解冻主干网络
-LABEL_SMOOTHING = 0.05
+LR_BASE = 0.0001          # 主干网络基础学习率（小）
+LR_FC = 0.001             # FC层学习率（大）
+EPOCH_NUM = 50
+UNFREEZE_EPOCH = 10       # 第10轮解冻主干网络
+LABEL_SMOOTHING = 0.1
 
 
 def time_since(since):

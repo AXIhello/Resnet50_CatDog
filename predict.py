@@ -71,6 +71,7 @@ if __name__ == '__main__':
     image_paths_to_predict = [
         'test/test_cat.jpg',
         'test/test_cat2.jpg',
+        'test/test_cat3.jpg',
         'test/test_dog.jpg',
         # 可以添加更多图片路径
     ]
